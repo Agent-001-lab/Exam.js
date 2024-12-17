@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <nav class="flex justify-between items-center px-40 bg-white lg:py-2 py-0 fixed top-0 left-0 right-0 relative z-10">
+        <div class="logo flex items-center justify-center">
+            <img src="./images/img_logo.png" alt="">
+            <h1 class="text-purple-600 font-semibold text-4xl"><a href="#">Hexagon</a></h1>
+        </div>
+        <div class="link">
+            <button id="createBtn" class="text-blue-400 font-bold text-xl">Create a Project</button>
+        </div>
+    </nav>
+
+
+
+    <div class="showcase absolute -left-52 bg-purple-500 -top-16 bottom-0 right-0 bg-[url('https://a7s6d987as6d978as6dyas87d6as87d978saf.netlify.app/images/home-banner.png')] flex items-center justify-center pt-24 pl-36">
+        <div class="card absolute w-3/6 h-auto bg-violet-500 rounded-2xl border border-purple-900 px-12 2xl:py-12 py-9 flex flex-col 2xl:gap-8 md:gap-4 gap-3">
+            <h2 class="text-white 2xl:text-5xl xl:text-3xl text-xl font-bold">Make CV with <span class="text-blue-300">Hexagon</span></h2>
+            <p class="text-white font-bold font-sans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolore pariatur corrupti earum beatae amet dolor quae modi aspernatur! Neque ad suscipit laudantium adipisci quo fuga. Nihil nesciunt quis laudantium magni iste exercitationem quo, necessitatibus perferendis recusandae tempora in sunt alias ipsam nobis pariatur, voluptates sed? Maiores eaque deleniti non.!</p>
+            <div class="buttons text-white">
+                <button id="leftBtn" class="text-blue-500 bg-white py-1 px-5 lg:text-xl rounded-md border-2 border-white hover:bg-blue-500 hover:text-white transition duration-1000">Join Us</button>
+                <button id="rightBtn" class="text-blue-500 bg-white py-1 px-5 lg:text-xl text-base rounded-md border-2 border-white hover:bg-blue-500 hover:text-white transition duration-1000">Log In</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

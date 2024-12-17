@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+
+    <nav class="w-screen h-20 bg-white border-2 border-b-purple-900 flex items-center justify-between px-10 mb-10 fixed top-0 lef-0 right-0 z-10">
+        <div class="logo flex items-center gap-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMtm7lYpeWlyBRa7WcadZt0d-7SSzWQXusw&s" class="w-14 h-14 rounded-full z-30" alt="">
+            <h1 class="text-3xl text-purple-600 font-semibold">USER</h1>
+        </div>
+        <button id="myProjects" class="bg-purple-500 text-white px-4 py-1 text-xl rounded-md hover:bg-white hover:text-purple-600 border-2 border-purple-600 transition duration-900">My Projects</button>
+    </nav>
+
+<img src="https://a7s6d987as6d978as6dyas87d6as87d978saf.netlify.app/images/icon.png" class="absolute xl:w-2/5 xl:h-96 h-72 top-10 left-0 sm:left-10" alt="">
+<div class="container flex gap-52 px-10 absolute top-32 mt-30">
+    <form class="form1 xl:w-80 w-60 h-auto flex flex-col px-5 gap-2 py-5">
+        <label class="text-purple-600 font-bold text-xl" for="url">Img URL</label>
+        <input id="url" class="border-2 border-blue-500 rounded-md outline-none text-xl" type="url" name="imgUrl">
+        <label class="text-purple-600 font-bold text-xl" for="text">Name:</label>
+        <input id="text" class="border-2 border-blue-500 rounded-md outline-none text-xl" type="text" name="Username">
+        <label class="text-purple-600 font-bold text-xl" for="job">Job:</label>
+        <input id="job" class="border-2 border-blue-500 rounded-md outline-none text-xl" type="text" name="job">
+        <label class="text-purple-600 font-bold text-xl" for="date">Date of Birth:</label>
+        <input id="date" class="border-2 border-blue-500 rounded-md outline-none text-xl" type="date" name="date">
+        <label class="text-purple-600 font-bold text-xl" for="desc">Description</label>
+        <textarea name="textarea" class="border-2 border-blue-500 rounded-md w-full h-32 text-xl" id="desc">I'am:</textarea>
+        <button id="saveBtn" type="submit" class="border-2 border-purple-500 bg-purple-500 hover:bg-white hover:text-purple-500 font-semibold text-white rounded-md transition duration-900 w-auto h-8 text-xl">Save</button>
+    </form>
+
+
+
+
+
+    <form class="form2 bg-gradient-to-br from-lime-300 to-cyan-300 w-96 h-auto flex flex-col gap-4 px-5 py-6">
+        <div class="box flex items-center justify-start gap-5">
+        <div class="box border-2 border-blue-500 w-32 h-32"><img class="img w-full h-full" ></img></div>
+        <div class="box"><h3 class="name text-3xl text-purple-600 font-semibold"></h3></div>
+    </div>
+        <div class="box text-blue-600 font-semibold text-2xl">Job:<h3 class="job text-xl text-purple-600 font-semibold"></h3></div>
+        <div class="box text-blue-600 font-semibold text-2xl">Date Of Birth:<h3 class="date  text-xl text-purple-600 font-semibold"></h3></div>
+        <div class="box text-blue-600 font-semibold text-2xl w-80 h-auto">About me:<h3 class="message  text-xl text-purple-600 font-semibold"></h3></div>
+    </form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./create.js"></script>
+</body>
+</html>

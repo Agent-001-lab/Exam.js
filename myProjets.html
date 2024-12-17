@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+<nav class="w-screen h-20 bg-white border-2 border-b-purple-900 flex items-center justify-between px-10 mb-10 fixed top-0 lef-0 right-0 z-10">
+    <div class="logo flex items-center gap-5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMtm7lYpeWlyBRa7WcadZt0d-7SSzWQXusw&s" class="w-14 h-14 rounded-full" alt="">
+        <h3 class="title text-2xl font-semibold text-purple-500">User</h3>
+    </div>
+    <div class="buttons text-white flex gap-4">
+        <button class="logoutBtn bg-red-500 px-5 py-1 rounded-md border-2 border-red-500 hover:text-red-500 hover:bg-white transition duration-900 font-semibold">Log Out</button>
+        <button class="deleteBtn bg-purple-500 px-5 py-1 rounded-md border-2 border-purple-500 font-semibold hover:bg-white hover:text-purple-500 transition duration-900">Delete Button</button>
+    </div>
+</nav>
+
+
+<div class="cards pl-10 gap-12 flex flex-wrap absolute top-32">
+<div class="addCard w-60 h-60 border-2 border-slate-500 flex items-center justify-center">
+    <a href="./create.html" class="text-9xl mb-7 text-slate-500">+</a>
+</div>
+</div>
+
+    <script src="./myProjects.js"></script>
+</body>
+</html>
